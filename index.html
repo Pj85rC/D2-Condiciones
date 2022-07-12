@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>D2 - Condiciones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <!-- Desafio II - Part I -->
+  <body>
+    <div id="contenedorImg">
+      <img
+        id="album"
+        src="assets/img/To_Mega_Therion_-_Celtic_Frost.jpg"
+        alt="album_celticFrot_toMegaTherion"
+      />
+    </div>
+
+    <!-- Desafio II - Part II -->
+    <section class="d2P2">
+      <p>Puedes llevar hasta 10 stickers en total</p>
+      <div class="stickers">
+        <div class="card">
+          <img
+            src="assets/img/sticker1.png"
+            alt="catEmpurror"
+            for="sticker1"
+            placeholder="Ingrese cantidad"
+          />
+          <div class="inputs">
+            <input id="o1" type="text" name="sticker1" />
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="assets/img/sticker2.png"
+            alt="catBehemeowth"
+            for="sticker2"
+            placeholder="Ingrese cantidad"
+          />
+          <div class="inputs">
+            <input id="o2" type="text" name="sticker2" />
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="assets/img/sticker3.png"
+            alt="catMeowtörhead"
+            for="sticker3"
+            placeholder="Ingrese cantidad"
+          />
+          <div class="inputs">
+            <input id="o3" type="text" name="sticker3" />
+          </div>
+        </div>
+      </div>
+      <p id="text"></p>
+      <button id="bCheck">Verificar</button>
+    </section>
+
+    <!-- Desafio II - Part III -->
+    <section class="d3P3">
+      <p id="title"><b>Ingresa el password</b></p>
+      <div class="selectors">
+        <select name="s1" id="s1">
+          <option value="0">-</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+        <select name="s2" id="s2">
+          <option value="0">-</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+        <select name="s3" id="s3">
+          <option value="0">-</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+      <div class="validate" id="validate">
+        <button id="bAdd">Ingresar</button>
+        <p id="message"></p>
+      </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
